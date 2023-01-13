@@ -2,14 +2,17 @@ package com.example.unite4_kararvedonguyapilari;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class uyg9Activity extends AppCompatActivity {
     EditText editTextSayilar;
-
+ Button tekSayilar,ciftSayilar,tumSayilar;
+ TextView sonuc;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +35,7 @@ public class uyg9Activity extends AppCompatActivity {
                 }
             }
         }
-        public void TumSayilar(View view){
+        public void TumListe(View view){
             editTextSayilar.setText("");
             for (int i=0;i<=15;i++){
                 editTextSayilar.setText(editTextSayilar.getText()+"\n"+i);

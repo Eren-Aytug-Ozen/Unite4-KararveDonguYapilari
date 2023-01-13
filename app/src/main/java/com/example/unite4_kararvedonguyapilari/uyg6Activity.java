@@ -19,7 +19,7 @@ public class uyg6Activity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg6_activity);
-        number = findViewById(R.id.TxtNumber2);
+        number = findViewById(R.id.editTextNumber);
         button = findViewById(R.id.btnOnayla);
         textView = findViewById(R.id.textView);
     }
